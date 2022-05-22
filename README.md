@@ -6,6 +6,11 @@
 - https://github.com/ce-automne/TomcatMemShell
 - https://github.com/achuna33/Memoryshell-JavaALL
 - https://www.anquanke.com/post/id/273250
+- https://github.com/iceyhexman/flask_memory_shell
+- https://github.com/passer-W/snakeyaml-memshell
+- https://github.com/crisprss/net_memory_webshell
+- https://github.com/achuna33/FuckMemshell
+- https://www.freebuf.com/articles/web/333625.html
 
 内存马查杀
 
