@@ -12,6 +12,9 @@
 - https://github.com/achuna33/FuckMemshell
 - https://www.freebuf.com/articles/web/333625.html
 - https://github.com/veo/wsMemShell
+- https://github.com/BeichenDream/GodzillaMemoryShellProject
+- https://github.com/BeichenDream/GodzillaMemoryShellProject.NET
+- https://github.com/feihong-cs/memShell
 
 内存马查杀
 
