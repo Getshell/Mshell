@@ -15,6 +15,9 @@
 - https://github.com/BeichenDream/GodzillaMemoryShellProject
 - https://github.com/BeichenDream/GodzillaMemoryShellProject.NET
 - https://github.com/feihong-cs/memShell
+- https://github.com/hosch3n/msmap
+- https://www.freebuf.com/articles/322388.html
+- https://mp.weixin.qq.com/s/osuoinwCpOwNM4WoI6SOnQ
 
 内存马查杀
 
