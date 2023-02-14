@@ -23,3 +23,4 @@
 内存马查杀
 
 - https://github.com/4ra1n/FindShell
+- https://github.com/4ra1n/shell-analyzer
