@@ -20,6 +20,7 @@
 - https://mp.weixin.qq.com/s/osuoinwCpOwNM4WoI6SOnQ
 - https://xz.aliyun.com/t/11988
 - https://github.com/bmth666/memshell
+- https://github.com/Octoberfest7/MemFiles
 
 内存马查杀
 
