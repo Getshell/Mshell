@@ -169,13 +169,23 @@
 - [ ] https://github.com/0x727/DropLabTools
 - [ ] https://github.com/veo/wsMemShell
 - [ ] https://github.com/threedr3am/JSP-WebShells
+- [ ] https://github.com/jas502n/MemShellCode
+- [ ] https://github.com/bitterzzZZ/MemoryShellLearn
+- [ ] https://github.com/su18/MemoryShell
+- [ ] https://github.com/safe6Sec/MemoryShell
+- [ ] https://github.com/NikolaGareth/MemoryShell
+- [ ] https://github.com/birdhan/Memory
+- [ ] https://github.com/retry-later/MemoryShell_java
+- [ ] https://github.com/7BitsTeam/LearningAgentShell
+- [ ] https://github.com/AzRunRCE/MemoryShellCodeExploit
 
 三、学术论文
 - [ ] [面向Java 的高对抗内存型Webshell 检测技术](http://jcs.iie.ac.cn/xxaqxb/ch/reader/create_pdf.aspx?file_no=20220604&year_id=2022&quarter_id=6&falg=1)@张金莉 陈星辰等
+- [ ] [一种针对Tomcat Filter型的MemShell检测技术研究](http://jcs.iie.ac.cn/xxaqxb/ch/reader/view_abstract.aspx?file_no=202112210000002)@蔡国宝 张昆等
 
 ## 02-内存马原理
 
-- https://0e0w.com/Mshell #文章编写中，待公开
+- [ ] https://0e0w.com/Mshell #文章编写中，待公开
 
 ## 03-内存马实战
 
@@ -199,10 +209,11 @@
 - [ ] https://github.com/c0ny1/java-memshell-scanner
 - [ ] https://github.com/LandGrey/copagentcop.jar
 - [ ] https://github.com/alibaba/arthas
+- [ ] https://github.com/sf197/MemoryShellHunter
 
 ## 05-内存马老师
 
-- https://github.com/pen4uin
-- https://github.com/Getshell/Webshell
+- [ ] https://github.com/pen4uin
+- [ ] https://github.com/Getshell/Webshell
 
 [![Stargazers over time](https://starchart.cc//Getshell/Mshell.svg)](https://starchart.cc/Getshell/Mshell)
