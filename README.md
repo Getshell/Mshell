@@ -2,16 +2,15 @@
 
 ![Getshell](https://socialify.git.ci/Getshell/Mshell/image?description=1&font=Inter&forks=1&issues=1&language=1&name=1&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Light)
 
-不知从那天起，内存马悄悄成为了新的技术研究方向。一边习惯了技术的更迭而淡定自若，一边突然面对消失的技术而黯然伤神消沉。猛回头，发现突然消失的又何止是技术？本项目用来收集整理内存马相关的技术资料，包括内存马技术原理实现方法具体的项目等。致敬曾经的四大spy，致敬中国菜刀！作者：[0e0w](https://github.com/0e0w)
+不知从那天起，内存马悄悄成为了新的技术研究方向。一边习惯了技术的更迭而淡定自若，一边突然面对消失的技术而黯然伤神消沉。猛回头，发现突然消失的又何止是技术？本项目用来收集整理内存马相关的技术资料，包括内存马技术原理实现方法具体的项目等。内存马在Java领域独领风骚，因此我们将重点关注Java内存马。也用此项目致敬曾经的四大spy，致敬中国菜刀，致敬消失的技术！作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2023年5月1日，最近的一次更新时间为2023年6月6日。
+本项目创建于2023年5月1日，最近的一次更新时间为2023年6月8日。
 
 - [01-内存马资源](https://github.com/Getshell/Mshell#01-%E5%86%85%E5%AD%98%E9%A9%AC%E8%B5%84%E6%BA%90)
 - [02-内存马原理](https://github.com/Getshell/Mshell#02-%E5%86%85%E5%AD%98%E9%A9%AC%E5%8E%9F%E7%90%86)
-- [03-内存马分类](https://github.com/Getshell/Mshell#03-%E5%86%85%E5%AD%98%E9%A9%AC%E5%88%86%E7%B1%BB)
-- [04-内存马工具](https://github.com/Getshell/Mshell#04-%E5%86%85%E5%AD%98%E9%A9%AC%E5%B7%A5%E5%85%B7)
-- [05-内存马查杀](https://github.com/Getshell/Mshell#05-%E5%86%85%E5%AD%98%E9%A9%AC%E6%9F%A5%E6%9D%80)
-- [06-内存马老师](https://github.com/Getshell/Mshell#06-%E5%86%85%E5%AD%98%E9%A9%AC%E8%80%81%E5%B8%88)
+- [03-内存马实战](https://github.com/Getshell/Mshell#03-%E5%86%85%E5%AD%98%E9%A9%AC%E5%AE%9E%E6%88%98)
+- [04-内存马查杀](https://github.com/Getshell/Mshell#04-%E5%86%85%E5%AD%98%E9%A9%AC%E6%9F%A5%E6%9D%80)
+- [05-内存马老师](https://github.com/Getshell/Mshell#05-%E5%86%85%E5%AD%98%E9%A9%AC%E8%80%81%E5%B8%88)
 
 ## 01-内存马资源
 
@@ -21,6 +20,7 @@
 - [ ] [内存马的攻防博弈之旅](http://blog.nsfocus.net/webshell-interceptor/)@绿盟陈建军
 - [ ] [内存马的攻防博弈之旅之GRPC内存马](http://blog.nsfocus.net/grpc/)@绿盟陈建军
 - [ ] [Tomcat内存马——Filter/servlet/Listener/valve](https://xz.aliyun.com/t/11988)@godown
+- [ ] [Spring内存马——Controller/Interceptor构造](https://xz.aliyun.com/t/12047)@godown
 - [ ] [内存马探究](https://www.anquanke.com/post/id/279160)@Tide安全团队
 - [ ] [一文看懂内存马](https://www.freebuf.com/articles/web/274466.html)@lex1993
 - [ ] [JavaWeb 内存马一周目通关攻略](https://su18.org/post/memory-shell/)@su18
@@ -42,6 +42,8 @@
 - [ ] [Java内存马系列-04-Tomcat 之 Listener 型内存马](https://drun1baby.top/2022/08/27/Java%E5%86%85%E5%AD%98%E9%A9%AC%E7%B3%BB%E5%88%97-04-Tomcat-%E4%B9%8B-Listener-%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC/)@Drunkbaby
 - [ ] [Java内存马系列-05-Tomcat 之 Servlet 型内存马](https://drun1baby.top/2022/09/04/Java%E5%86%85%E5%AD%98%E9%A9%AC%E7%B3%BB%E5%88%97-05-Tomcat-%E4%B9%8B-Servlet-%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC/)@Drunkbaby
 - [ ] [Java内存马系列-06-Tomcat 之 Valve 型内存马](https://drun1baby.top/2022/09/07/Java%E5%86%85%E5%AD%98%E9%A9%AC%E7%B3%BB%E5%88%97-06-Tomcat-%E4%B9%8B-Valve-%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC/)@Drunkbaby
+- [ ] [Java 内存马基础知识 —— Tomcat 架构学习](https://www.freebuf.com/articles/web/343094.html)@Drunkbaby
+- [ ] [Java 内存马与 JSP 不得不说的那些事儿](https://www.freebuf.com/articles/web/343095.html)@Drunkbaby
 - [ ] [内存马的攻防博弈实操](https://www.cnblogs.com/renhaoblog/p/16851585.html)@renhao
 - [ ] [Java利用技巧——Jetty Filter型内存马](https://3gstudent.github.io/Java%E5%88%A9%E7%94%A8%E6%8A%80%E5%B7%A7-Jetty-Filter%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC)@3gstudent
 - [ ] [一种全新的内存马](https://veo.pub/2022/memshell/)@veo
@@ -59,18 +61,12 @@
 - [ ] [浅析Spring类内存马](https://xz.aliyun.com/t/12538)@Sentiment
 - [ ] [Shiro注入回显内存马](https://xz.aliyun.com/t/12537)@Sentiment
 - [ ] [Tomcat反序列化注入回显内存马](https://xz.aliyun.com/t/12494)@Sentiment
-- [ ] [GlassFish-Filter内存马分析](https://xz.aliyun.com/t/12240)@饼干屑小鬼
 - [ ] [步履维艰之Struts2内存马](https://xz.aliyun.com/t/12237)@f0ng
-- [ ] [Jetty 内存马注入分析](https://xz.aliyun.com/t/12182)@饼干屑小鬼
-- [ ] [Wildfly中间件内存马分析](https://xz.aliyun.com/t/12161)@饼干屑小鬼
-- [ ] [Resin内存马分析](https://xz.aliyun.com/t/12147)@饼干屑小鬼
 - [ ] [Resin内存马逆袭之路](https://xz.aliyun.com/t/11758)@Ha1ey
-- [ ] [论如何优雅的注入Java Agent内存马](https://xz.aliyun.com/t/11640)@rebeyond
 - [ ] [Executor内存马的实现](https://xz.aliyun.com/t/11593)@bluE0
 - [ ] [Executor内存马的实现（二）](https://xz.aliyun.com/t/11613)@bluE0
 - [ ] [java内存马分析集合](https://xz.aliyun.com/t/11084)@奈*七
 - [ ] [浅析JSP型内存马](https://xz.aliyun.com/t/11020)@tyskill
-- [ ] [JAVA内存马的“一生”](https://xz.aliyun.com/t/11003)@ga0weI
 - [ ] [Python 内存马分析](https://xz.aliyun.com/t/10933)@H3rmesk1t
 - [ ] [RuoYi 可用内存马](https://xz.aliyun.com/t/10651)@lz2y
 - [ ] [java filter马持久化](https://xz.aliyun.com/t/10582)@changeServer
@@ -78,8 +74,74 @@
 - [ ] [Tomcat 内存马（一）Listener型](https://xz.aliyun.com/t/10358)@洋洋
 - [ ] [Tomcat 内存马（二）Filter型](https://xz.aliyun.com/t/10362)@洋洋
 - [ ] [JSP内存马研究](https://xz.aliyun.com/t/10372)@藏青
+- [ ] [JSP Webshell那些事——攻击篇（上）](https://www.anquanke.com/post/id/214435)@阿里云云安全中心
+- [ ] [JSP Webshell那些事——攻击篇（下）](https://www.anquanke.com/post/id/214483)@阿里云云安全中心
+- [ ] [基于Tomcat无文件Webshell研究](https://mp.weixin.qq.com/s?__biz=MzI0NzEwOTM0MA==&mid=2652474966&idx=1&sn=1c75686865f7348a6b528b42789aeec8&scene=21#wechat_redirect)@l1nk3r
+- [ ] [java内存马攻击篇](https://dem0dem0.top/2022/07/18/java%E5%86%85%E5%AD%98%E9%A9%AC%E6%94%BB%E5%87%BB%E7%AF%87/)@dem0
+- [ ] [一文简析内存马攻击防护解决方案](https://www.anquanke.com/post/id/236200)@安芯网盾
+- [ ] [EXE文件内存加载](https://www.anquanke.com/post/id/260054)@D4ck
+- [ ] [Tomcat 内存马检测](https://www.anquanke.com/post/id/219177)@jweny
+- [ ] [Spring内存木马检测思路](https://www.anquanke.com/post/id/239868)@安全狗
+- [ ] [一枚野生resin filter内存马调试](https://www.anquanke.com/post/id/239866)@superxx
+- [ ] [Tomcat内存马之Valve和WebSocket型](https://www.freebuf.com/articles/web/365822.html)@Lemono
+- [ ] [自己动手写Filter型内存马](https://www.freebuf.com/articles/web/365501.html)@s8ark
+- [ ] [基于ysoserial的深度利用研究（命令回显与内存马）](https://www.freebuf.com/articles/network/361296.html)@盛邦安全WebRAY
+- [ ] [对tomcat-servlet内存马的学习路](https://www.freebuf.com/vuls/356297.html)@superLeeH
+- [ ] [Java Agent 内存马攻防](https://www.freebuf.com/articles/web/331954.html)@iO快到碗里来
+- [ ] [结合CC链注入无文件Tomcat内存马](https://www.freebuf.com/articles/web/354385.html)@godownio
+- [ ] [Yso-Java Hack 进阶：利用反序列化漏洞打内存马](https://www.freebuf.com/articles/network/353911.html)@yaklang
+- [ ] [Spring Boot RCE到内存马探索](https://www.freebuf.com/articles/system/349374.html)@SecIN技术社区
+- [ ] [Resin内存马逆袭之路](https://www.freebuf.com/articles/web/346946.html)@Ha1ey
+- [ ] [MSMAP：一款功能强大的内存WebShell生成工具](https://www.freebuf.com/articles/system/351107.html)@Alpha_h4ck
+- [ ] [如何从内存加载DLL](https://www.freebuf.com/articles/system/227996.html)@搬运工007
+- [ ] [JavaAgent技术在内存马中的应用](https://www.freebuf.com/articles/web/323737.html)@安全狗
+- [ ] [Java Agent到内存马](https://www.freebuf.com/articles/web/310224.html)@蚁景科技
+- [ ] [蓝军反治系列之打造weblogic的持久化内存马后门](https://www.freebuf.com/articles/web/268728.html)@宽字节安全实验室
+- [ ] [深入浅出内存马（一）](https://www.freebuf.com/articles/network/307970.html)@雷石安全实验室
+- [ ] [深入浅出内存马(二)](https://www.freebuf.com/articles/web/287989.html)@雷石安全实验室
+- [ ] [擅长捉弄的内存马同学：Valve内存马](https://www.freebuf.com/articles/web/348663.html)@potatosafe
+- [ ] [擅长捉弄的内存马同学：Agent内存马（低卡）](https://www.freebuf.com/articles/web/323621.html)@potatosafe
+- [ ] [擅长捉弄的内存马同学：Servlet内存马](https://www.freebuf.com/articles/web/322580.html)@potatosafe
+- [ ] [擅长捉弄的内存马同学：Listener内存马](https://www.freebuf.com/articles/web/322309.html)@potatosafe
+- [ ] [擅长捉弄的内存马同学：Filter内存马（高甜）](https://www.freebuf.com/articles/web/321975.html)@potatosafe
+- [ ] [手搓Filter内存马从构造到利用讲解(内存马系列篇一)](https://www.freebuf.com/vuls/344284.html)@RoboTerh
+- [ ] [完全摸透Servlet内存马(内存马系列篇二)](https://www.freebuf.com/vuls/344296.html)
+- [ ] [深入底层源码的Listener内存马(内存马系列篇三)](https://www.freebuf.com/vuls/344297.html)
+- [ ] [Tomcat架构之为Bypass内存马检测铺路(内存马系列篇四)](https://www.freebuf.com/vuls/344793.html)
+- [ ] [绕过检测之Executor内存马浅析(内存马系列篇五)](https://www.freebuf.com/vuls/344812.html)
+- [ ] [初探Upgrade内存马(内存马系列篇六)](https://www.freebuf.com/vuls/345119.html)
+- [ ] [WebSocket内存马之tomcat-websocket源码实现(内存马系列篇七)](https://www.freebuf.com/vuls/345739.html)
+- [ ] [再探WebSocket内存马(内存马系列篇八)](https://www.freebuf.com/vuls/346129.html)
+- [ ] [初探Spring内存马之Controller(内存马系列篇九)](https://www.freebuf.com/vuls/346315.html)
+- [ ] [再谈Spring内存马之Interceptor(内存马系列篇十)](https://www.freebuf.com/vuls/346644.html)
+- [ ] [浅析Tomcat架构上的Valve内存马(内存马系列篇十一)](https://www.freebuf.com/vuls/346943.html)
+- [ ] [谈谈java agent技术的实现(内存马系列篇十二)](https://www.freebuf.com/vuls/347070.html)
+- [ ] [构造agent类型的内存马(内存马系列篇十三)](https://www.freebuf.com/vuls/348082.html)
+- [ ] [spring回显方式在代码层面的复现(内存马系列篇十四)](https://www.freebuf.com/articles/web/348804.html)
+- [ ] [寻找全局Request进行Tomcat内存马注入(内存马系列篇十五)](https://www.freebuf.com/vuls/350482.html)
+- [ ] [对上篇注入内存马方式的缩短改造(内存马篇十六)](https://www.freebuf.com/vuls/350638.html)
+- [ ] [WebSphere内存马分析](https://xz.aliyun.com/t/12278)@饼干屑小鬼
+- [ ] [GlassFish-Filter内存马分析](https://xz.aliyun.com/t/12240)@饼干屑小鬼
+- [ ] [Jetty 内存马注入分析](https://xz.aliyun.com/t/12182)@饼干屑小鬼
+- [ ] [Wildfly中间件内存马分析](https://xz.aliyun.com/t/12161)@饼干屑小鬼
+- [ ] [Resin内存马分析](https://xz.aliyun.com/t/12147)@饼干屑小鬼
+- [ ] [TemplatesImpl利用链与Fastjson注入内存马](https://xz.aliyun.com/t/12085)@ajie
+- [ ] [反序列化分析到shiro注入WebSocket内存马](https://xz.aliyun.com/t/12042)@ajie
+- [ ] [利用 PHP-FPM 做内存马的方法](https://xz.aliyun.com/t/11651)@wofeiwo
+- [ ] [java Filter内存马分析](https://xz.aliyun.com/t/10888)@奈*七
+- [ ] [Spring Interceptor 内存马分析](https://xz.aliyun.com/t/11039)@yecp
+- [ ] [Java内存马：一种Tomcat全版本获取StandardContext的新方法](https://xz.aliyun.com/t/9914)@bitterz
+- [ ] [Resin回显及内存马](https://xz.aliyun.com/t/9639)@九五二七
+- [ ] [Tomcat WebSocket内存马原理浅析](https://tttang.com/archive/1673/)@wh1sper
+- [ ] [ASP.NET下的内存马(1) filter内存马](https://tttang.com/archive/1408/)@yzddmr6
+- [ ] [ASP.NET下的内存马(2) Route内存马](https://tttang.com/archive/1420/)@yzddmr6
+- [ ] [ASP.NET下的内存马(3) HttpListener内存马](https://tttang.com/archive/1451/)@yzddmr6
+- [ ] [ASP.NET下的内存马(4) VirtualPath内存马](https://tttang.com/archive/1488/)@yzddmr6
+- [ ] [NoAgent内存马检测工具](https://tttang.com/archive/1390/)@xyyl1l
+- [ ] [瞒天过海计之Tomcat隐藏内存马](https://tttang.com/archive/1368/)@wh4am1
+- [ ] [从一个被Tomcat拒绝的漏洞到特殊内存马](https://developer.aliyun.com/article/1160290)@4ra1n
 
-二、优秀项目
+二、开源项目
 - [x] https://github.com/topics/memshell
 - [x] https://github.com/search?q=memshell
 - [ ] https://github.com/jweny/MemShellDemo
@@ -103,48 +165,44 @@
 - [ ] https://github.com/rebeyond/memShell
 - [ ] https://github.com/ax1sX/MemShell
 - [ ] https://github.com/lz2y/yaml-payload-for-ruoyi
+- [ ] https://github.com/threedr3am/ZhouYu
+- [ ] https://github.com/0x727/DropLabTools
+- [ ] https://github.com/veo/wsMemShell
+- [ ] https://github.com/threedr3am/JSP-WebShells
+
+三、学术论文
+- [ ] [面向Java 的高对抗内存型Webshell 检测技术](http://jcs.iie.ac.cn/xxaqxb/ch/reader/create_pdf.aspx?file_no=20220604&year_id=2022&quarter_id=6&falg=1)@张金莉 陈星辰等
 
 ## 02-内存马原理
 
-一、内存马概念
+- https://0e0w.com/Mshell #文章编写中，待公开
 
-二、内存马实现
+## 03-内存马实战
 
-## 03-内存马分类
+一、Tomcat
 
-一、实现分类
+二、Weblogic
 
-- Servlet
-- Filter
-- Listener
-
-二、组件分类
-
-- Tomcat内存马
-- Weblogic内存马
-
-三、协议分类
-
-- WebSocket
-
-九、待分类
-- [ ] https://github.com/veo/wsMemShell  
-
-## 04-内存马工具
+九、待整理
 
 - [ ] https://github.com/pen4uin/jMemshellGenerator
 - [ ] https://github.com/whwlsfb/cve-2022-22947-godzilla-memshell
 - [ ] https://github.com/A-D-Team/SharpMemshell
-- [ ] https://github.com/keven1z/weblogic_memshell
+- [x] https://github.com/keven1z/weblogic_memshell
 
-## 05-内存马查杀
+## 04-内存马查杀
 
 - [ ] [gRPC内存马研究与查杀](https://xz.aliyun.com/t/11985)@0goid
 - [ ] [给木马带双眼睛](https://xz.aliyun.com/t/11655)@KyoDream
-- [ ] https://github.com/4ra1n/FindShell
+- [ ] https://github.com/geekmc/FindShell
 - [ ] https://github.com/4ra1n/shell-analyzer
 - [ ] https://github.com/c0ny1/java-memshell-scanner
+- [ ] https://github.com/LandGrey/copagentcop.jar
+- [ ] https://github.com/alibaba/arthas
 
-## 06-内存马老师
+## 05-内存马老师
+
+- https://github.com/pen4uin
+- https://github.com/Getshell/Webshell
 
 [![Stargazers over time](https://starchart.cc//Getshell/Mshell.svg)](https://starchart.cc/Getshell/Mshell)
