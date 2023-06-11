@@ -4,7 +4,7 @@
 
 不知从那天起，内存马悄悄成为了新的技术研究方向。一边习惯了技术的更迭而淡定自若，一边突然面对消失的技术而黯然伤神消沉。猛回头，发现突然消失的又何止是技术？本项目用来收集整理内存马相关的技术资料，包括内存马技术原理实现方法具体的项目等。内存马在Java领域独领风骚，因此我们将重点关注Java内存马。也用此项目致敬曾经的四大spy，致敬中国菜刀，致敬消失的技术！作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2023年5月1日，最近的一次更新时间为2023年6月8日。
+本项目创建于2023年5月1日，最近的一次更新时间为2023年6月11日。
 
 - [01-内存马资源](https://github.com/Getshell/Mshell#01-%E5%86%85%E5%AD%98%E9%A9%AC%E8%B5%84%E6%BA%90)
 - [02-内存马原理](https://github.com/Getshell/Mshell#02-%E5%86%85%E5%AD%98%E9%A9%AC%E5%8E%9F%E7%90%86)
@@ -140,10 +140,22 @@
 - [ ] [NoAgent内存马检测工具](https://tttang.com/archive/1390/)@xyyl1l
 - [ ] [瞒天过海计之Tomcat隐藏内存马](https://tttang.com/archive/1368/)@wh4am1
 - [ ] [从一个被Tomcat拒绝的漏洞到特殊内存马](https://developer.aliyun.com/article/1160290)@4ra1n
+- [ ] [jMG - 高度自定义的 Java 内存马生成工具](https://mp.weixin.qq.com/s/oAiGWY9ABhn2o148snA_sg)@pen4uin
+- [ ] [jMG v1.0.5介绍](https://mp.weixin.qq.com/s/QjoRs_J5jVANrdEiiTtVtA)@pen4uin
+- [ ] [学习JAVA内存SHELL](https://www.x1a0t.com/2020/08/04/Study-Java-Memory-Shell/)@x1a0t
+- [ ] [Spring Memory Shell](https://jlkl.github.io/2022/05/26/Java-09/)@jlkl
+- [ ] [Spring Memory Shell](https://ch1e.cn/post/spring-memory-shell/)@ch1e
+- [ ] [ControllerAdviceBean Memory Shell](https://ch1e.cn/post/controlleradvicebean-memory-shell/)@ch1e
+- [ ] [Executor Memory Shell](https://ch1e.cn/post/executor-memory-shell/)@ch1e
+- [ ] [Servlet Memory Shell](https://ch1e.cn/post/servlet-memory-shell/)@ch1e
+- [ ] [Java内存马之Filter内存马](https://ch1e.cn/post/java-nei-cun-ma-zhi-filter-nei-cun-ma/)@ch1e
+- [ ] [Executor Memory Shell](https://cjlusec.ldxk.edu.cn/2023/02/15/Executor/)@cjlusec
 
 二、开源项目
 - [x] https://github.com/topics/memshell
 - [x] https://github.com/search?q=memshell
+- [ ] https://github.com/bitterzzZZ/MemoryShellLearn
+- [ ] https://github.com/pen4uin/java-memshell-generator
 - [ ] https://github.com/jweny/MemShellDemo
 - [ ] https://github.com/ce-automne/TomcatMemShell
 - [ ] https://github.com/achuna33/Memoryshell-JavaALL
@@ -158,9 +170,7 @@
 - [ ] https://github.com/bmth666/memshell
 - [ ] https://github.com/Octoberfest7/MemFiles
 - [ ] https://github.com/ethushiroha/JavaAgentTools
-- [ ] https://mp.weixin.qq.com/s/oAiGWY9ABhn2o148snA_sg
 - [ ] https://github.com/mieeA/SpringWebflux-MemShell
-- [ ] https://github.com/jweny/MemShellDemo
 - [ ] https://github.com/0x00007c00/JundeadShell
 - [ ] https://github.com/rebeyond/memShell
 - [ ] https://github.com/ax1sX/MemShell
@@ -170,7 +180,6 @@
 - [ ] https://github.com/veo/wsMemShell
 - [ ] https://github.com/threedr3am/JSP-WebShells
 - [ ] https://github.com/jas502n/MemShellCode
-- [ ] https://github.com/bitterzzZZ/MemoryShellLearn
 - [ ] https://github.com/su18/MemoryShell
 - [ ] https://github.com/safe6Sec/MemoryShell
 - [ ] https://github.com/NikolaGareth/MemoryShell
@@ -178,6 +187,12 @@
 - [ ] https://github.com/retry-later/MemoryShell_java
 - [ ] https://github.com/7BitsTeam/LearningAgentShell
 - [ ] https://github.com/AzRunRCE/MemoryShellCodeExploit
+- [ ] https://github.com/gobysec/Memory-Shell
+- [ ] https://github.com/XhstormR/memshell-serial
+- [ ] https://github.com/INT2ECALL/Awesome-JavaMemoryShell
+- [ ] https://github.com/minhangxiaohui/JAVA_memshells
+- [ ] https://github.com/kuron3k0/java_memshell
+- [ ] https://github.com/changheluor007/MemShell-1
 
 三、学术论文
 - [ ] [面向Java 的高对抗内存型Webshell 检测技术](http://jcs.iie.ac.cn/xxaqxb/ch/reader/create_pdf.aspx?file_no=20220604&year_id=2022&quarter_id=6&falg=1)@张金莉 陈星辰等
@@ -195,7 +210,8 @@
 
 九、待整理
 
-- [ ] https://github.com/pen4uin/jMemshellGenerator
+- [ ] [Shiro反序列化注入内存马](https://ch1e.cn/post/shiro-fan-xu-lie-hua-zhu-ru-nei-cun-ma/)@ch1e
+- [ ] [Fastjson反序列化注入内存马](https://ch1e.cn/post/fastjson-fan-xu-lie-hua-zhu-ru-nei-cun-ma/)@ch1e
 - [ ] https://github.com/whwlsfb/cve-2022-22947-godzilla-memshell
 - [ ] https://github.com/A-D-Team/SharpMemshell
 - [x] https://github.com/keven1z/weblogic_memshell
@@ -204,16 +220,22 @@
 
 - [ ] [gRPC内存马研究与查杀](https://xz.aliyun.com/t/11985)@0goid
 - [ ] [给木马带双眼睛](https://xz.aliyun.com/t/11655)@KyoDream
+- [ ] [查杀Java web filter型内存马](https://gv7.me/articles/2020/kill-java-web-filter-memshell/)@c0ny1
 - [ ] https://github.com/geekmc/FindShell
 - [ ] https://github.com/4ra1n/shell-analyzer
 - [ ] https://github.com/c0ny1/java-memshell-scanner
-- [ ] https://github.com/LandGrey/copagentcop.jar
+- [ ] https://github.com/LandGrey/copagent
 - [ ] https://github.com/alibaba/arthas
 - [ ] https://github.com/sf197/MemoryShellHunter
+- [ ] https://github.com/cri1wa/DefendMemoryShell
+- [ ] https://github.com/tovd-go/java-memshell-scan
+- [ ] https://github.com/huoji120/DuckMemoryScan
+- [ ] https://github.com/threedr3am/GuanYu
 
 ## 05-内存马老师
 
 - [ ] https://github.com/pen4uin
+- [ ] https://github.com/threedr3am
 - [ ] https://github.com/Getshell/Webshell
 
 [![Stargazers over time](https://starchart.cc//Getshell/Mshell.svg)](https://starchart.cc/Getshell/Mshell)
