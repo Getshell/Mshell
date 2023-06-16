@@ -88,7 +88,6 @@
 - [ ] [自己动手写Filter型内存马](https://www.freebuf.com/articles/web/365501.html)@s8ark
 - [ ] [基于ysoserial的深度利用研究（命令回显与内存马）](https://www.freebuf.com/articles/network/361296.html)@盛邦安全WebRAY
 - [ ] [对tomcat-servlet内存马的学习路](https://www.freebuf.com/vuls/356297.html)@superLeeH
-- [ ] [Java Agent 内存马攻防](https://www.freebuf.com/articles/web/331954.html)@iO快到碗里来
 - [ ] [结合CC链注入无文件Tomcat内存马](https://www.freebuf.com/articles/web/354385.html)@godownio
 - [ ] [Yso-Java Hack 进阶：利用反序列化漏洞打内存马](https://www.freebuf.com/articles/network/353911.html)@yaklang
 - [ ] [Spring Boot RCE到内存马探索](https://www.freebuf.com/articles/system/349374.html)@SecIN技术社区
@@ -153,7 +152,25 @@
 - [ ] [基于内存 Webshell 的无文件攻击技术研究](https://www.anquanke.com/post/id/198886)@LandGrey
 - [ ] [利用 intercetor 注入 spring 内存 webshell](https://landgrey.me/blog/19/)@LandGrey
 - [ ] [内存马学习专区](https://github.com/Y4tacker/JavaSec#5%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0%E4%B8%93%E5%8C%BA)@Y4tacker
-- [ ] [Tomcat Servlet-Api内存马总结及代码实现](https://mp.weixin.qq.com/s/r-JHLX5UoccGNZCfJS3klg)
+- [ ] [Tomcat Servlet-Api内存马总结及代码实现](https://mp.weixin.qq.com/s/r-JHLX5UoccGNZCfJS3klg)@automne
+- [ ] [护网专题第一篇-Java内存马（上）](https://mp.weixin.qq.com/s/YVwqD6SwUq_jkEe_9afBCg)@零鉴科技
+- [ ] [护网专题第二篇-Java内存马（下）](https://mp.weixin.qq.com/s/gmKSmW5SIME8lWKj8bvhWw)@零鉴科技
+- [ ] [Linux下无文件Java agent探究](https://tttang.com/archive/1525/)@Xiaopan233
+- [ ] [浅谈 Java Agent 内存马](http://wjlshare.com/archives/1582)@天下大木头
+- [ ] [Java Agent 内存马攻防](https://www.freebuf.com/articles/web/331954.html)@iO快到碗里来
+- [ ] [Java Agent 内存马](https://exp10it.cn/2023/01/java-agent-%E5%86%85%E5%AD%98%E9%A9%AC/)@X1r0zi
+- [ ] [JavaAgent内存马研究](https://cangqingzhe.github.io/2021/10/13/JavaAgent%E5%86%85%E5%AD%98%E9%A9%AC%E7%A0%94%E7%A9%B6/)@藏青
+- [ ] [Java Agent内存马学习](http://www.bmth666.cn/bmth_blog/2022/11/16/Java-Agent%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/)@bmth
+- [ ] [Java Agent到内存马(一)](https://mp.weixin.qq.com/s?__biz=Mzg3ODg1MDUxNw==&mid=2247483687&idx=1&sn=4ce0094b03fe23bd3577c902754b99a1&chksm=cf0c399df87bb08b4a060ec91adbacd1e477fe56df200a2790fb741976abdbf078246fc6a828&scene=126&sessionid=1686886912#rd)@N0r4h
+- [ ] [Java Agent到内存马(二)](https://mp.weixin.qq.com/s?__biz=Mzg3ODg1MDUxNw==&mid=2247483706&idx=1&sn=9440b7aaf5ee945bd79cba9e6d3efe35&chksm=cf0c3980f87bb0963ad207c5cfaea2caf13ab9130b37f2b7e5fead149f72120309a1d47a9a31&scene=126&sessionid=1686886912#rd)@N0r4h
+- [ ] [Java Agent到内存马](https://mp.weixin.qq.com/s/4flGwH-LizMx17PK0PQEzA)@许木
+- [ ] [Java Agent内存马演变历史](https://www.ctfiot.com/58172.html)@ctfiot
+- [ ] [Java Agent 内存马简介](https://passbya.xyz/2023/01/29/Java%20Agent%20%E5%86%85%E5%AD%98%E9%A9%AC%E7%AE%80%E4%BB%8B/)@PassbyA
+- [ ] [Tomcat Agent 型内存马](https://paoka1.top/2023/04/24/Tomcat-Agent-%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC/)@paoka1
+- [ ] [Java Agent 内存马](https://www.viewofthai.link/2023/02/23/java-agent-内存马/)@viewofthai
+- [ ] [Java Agent内存马--从入门到踩坑](https://blog.z3ratu1.cn/Java%20Agent%E7%AE%80%E6%98%93%E5%85%A5%E9%97%A8.html)@z3ratu1
+- [ ] [Java Agent内存马实现与检测](https://lemono.fun/JavaAgent-MemShell/)@lemono
+- [ ] [Java Agent内存马研究学习](https://blog.jd.army/2022/09/21/Java-Agent%E5%86%85%E5%AD%98%E9%A9%AC%E7%A0%94%E7%A9%B6%E5%AD%A6%E4%B9%A0/)@JD.Army
 
 二、开源项目
 - [x] https://github.com/topics/memshell
@@ -223,7 +240,6 @@
 五、WebSphere
 
 九、待整理
-
 - [ ] [Shiro反序列化注入内存马](https://ch1e.cn/post/shiro-fan-xu-lie-hua-zhu-ru-nei-cun-ma/)@ch1e
 - [ ] [Fastjson反序列化注入内存马](https://ch1e.cn/post/fastjson-fan-xu-lie-hua-zhu-ru-nei-cun-ma/)@ch1e
 - [ ] https://github.com/whwlsfb/cve-2022-22947-godzilla-memshell
