@@ -4,7 +4,7 @@
 
 不知从那天起，内存马悄悄成为了新的技术研究方向。一边习惯了技术的更迭而淡定自若，一边突然面对消失的技术而黯然伤神消沉。猛回头，发现突然消失的又何止是技术？本项目用来收集整理内存马相关的技术资料，包括内存马技术原理实现方法具体的项目等。内存马在Java领域独领风骚，因此我们将重点关注Java内存马。也用此项目致敬四大spy，致敬老兵，致敬消失的技术！作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2023年5月1日，最近的一次更新时间为2023年6月20日。
+本项目创建于2023年5月1日，最近的一次更新时间为2023年6月28日。
 
 - [01-内存马资源](https://github.com/Getshell/Mshell#01-%E5%86%85%E5%AD%98%E9%A9%AC%E8%B5%84%E6%BA%90)
 - [02-内存马原理](https://github.com/Getshell/Mshell#02-%E5%86%85%E5%AD%98%E9%A9%AC%E5%8E%9F%E7%90%86)
@@ -172,6 +172,8 @@
 - [ ] [Java Agent内存马实现与检测](https://lemono.fun/JavaAgent-MemShell/)@lemono
 - [ ] [Java Agent内存马研究学习](https://blog.jd.army/2022/09/21/Java-Agent%E5%86%85%E5%AD%98%E9%A9%AC%E7%A0%94%E7%A9%B6%E5%AD%A6%E4%B9%A0/)@JD.Army
 - [ ] [ServletListenerFilter内存马查杀手段一](https://www.freebuf.com/articles/web/369799.html)@RoboTerh
+- [ ] [Servlet内存马利用分析](https://xz.aliyun.com/t/12629)@Sentiment
+- [ ] [基于全局储存的新思路 | Tomcat的一种通用回显方法研究](https://mp.weixin.qq.com/s?__biz=MzIwNDA2NDk5OQ==&mid=2651374294&idx=3&sn=82d050ca7268bdb7bcf7ff7ff293d7b3)@Litch1
 
 二、开源项目
 - [x] https://github.com/topics/memshell
@@ -179,8 +181,6 @@
 - [ ] https://github.com/bitterzzZZ/MemoryShellLearn
 - [ ] https://github.com/pen4uin/java-memshell-generator
 - [ ] https://github.com/jweny/MemShellDemo
-- [ ] https://github.com/ce-automne/TomcatMemShell
-- [ ] https://github.com/K4ys0n/TomcatMemShellDemo
 - [ ] https://github.com/achuna33/Memoryshell-JavaALL
 - [ ] https://github.com/iceyhexman/flask_memory_shell
 - [ ] https://github.com/passer-W/snakeyaml-memshell
@@ -217,6 +217,7 @@
 - [ ] https://github.com/kuron3k0/java_memshell
 - [ ] https://github.com/changheluor007/MemShell-1
 - [ ] https://github.com/Y4er/WebLogic-Shiro-shell
+- [ ] https://github.com/kyo-w/router-router
 
 三、学术论文
 - [ ] [面向Java 的高对抗内存型Webshell 检测技术](http://jcs.iie.ac.cn/xxaqxb/ch/reader/create_pdf.aspx?file_no=20220604&year_id=2022&quarter_id=6&falg=1)@张金莉 陈星辰等
@@ -231,10 +232,13 @@
 ## 03-内存马实战
 
 一、Tomcat
+- [x] https://github.com/ce-automne/TomcatMemShell
+- [x] https://github.com/K4ys0n/TomcatMemShellDemo
 
 二、Spring
 
 三、Shiro
+- [ ] https://github.com/KpLi0rn/ShiroVulnEnv
 
 四、Jboss
 
