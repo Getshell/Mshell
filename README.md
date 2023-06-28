@@ -178,7 +178,6 @@
 二、开源项目
 - [x] https://github.com/topics/memshell
 - [x] https://github.com/search?q=memshell
-- [ ] https://github.com/bitterzzZZ/MemoryShellLearn
 - [ ] https://github.com/pen4uin/java-memshell-generator
 - [ ] https://github.com/jweny/MemShellDemo
 - [ ] https://github.com/achuna33/Memoryshell-JavaALL
@@ -201,7 +200,6 @@
 - [ ] https://github.com/threedr3am/ZhouYu
 - [ ] https://github.com/0x727/DropLabTools
 - [ ] https://github.com/veo/wsMemShell
-- [ ] https://github.com/threedr3am/JSP-WebShells
 - [ ] https://github.com/jas502n/MemShellCode
 - [ ] https://github.com/su18/MemoryShell
 - [ ] https://github.com/safe6Sec/MemoryShell
@@ -233,16 +231,19 @@
 
 一、Tomcat
 - [x] https://github.com/ce-automne/TomcatMemShell
-- [x] https://github.com/K4ys0n/TomcatMemShellDemo
+- [ ] https://github.com/K4ys0n/TomcatMemShellDemo
+- [ ] https://github.com/bitterzzZZ/MemoryShellLearn
 
-二、Spring
+二、Weblogic
 
-三、Shiro
+- [ ] https://github.com/keven1z/weblogic_memshell
+
+三、Spring
+
+四、Shiro
 - [ ] https://github.com/KpLi0rn/ShiroVulnEnv
 
-四、Jboss
-
-五、Weblogic
+五、Jboss
 
 六、WebSphere
 
@@ -251,7 +252,7 @@
 - [ ] [Fastjson反序列化注入内存马](https://ch1e.cn/post/fastjson-fan-xu-lie-hua-zhu-ru-nei-cun-ma/)@ch1e
 - [ ] https://github.com/whwlsfb/cve-2022-22947-godzilla-memshell
 - [ ] https://github.com/A-D-Team/SharpMemshell
-- [x] https://github.com/keven1z/weblogic_memshell
+- [ ] https://github.com/threedr3am/JSP-WebShells
 
 ## 04-内存马查杀
 
