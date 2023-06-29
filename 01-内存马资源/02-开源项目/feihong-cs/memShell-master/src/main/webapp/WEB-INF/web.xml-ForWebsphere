@@ -1,0 +1,51 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         id="WebApp_ID" version="3.0">
+  <display-name>Archetype Created Web Application</display-name>
+
+    <servlet>
+      <servlet-name>WebsphereCase1</servlet-name>
+      <servlet-class>com.memshell.websphere.FilterBasedBasic</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+      <servlet-name>WebsphereCase1</servlet-name>
+      <url-pattern>/case1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>WebsphereCase2</servlet-name>
+      <servlet-class>com.memshell.websphere.FilterBasedWithoutRequest</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+      <servlet-name>WebsphereCase2</servlet-name>
+      <url-pattern>/case2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>WebsphereCase3</servlet-name>
+      <servlet-class>com.memshell.websphere.FilterBasedWithoutRequestVariant</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+      <servlet-name>WebsphereCase3</servlet-name>
+      <url-pattern>/case3</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+      <filter-name>TestFilter</filter-name>
+      <filter-class>com.memshell.generic.BasicFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+      <filter-name>TestFilter</filter-name>
+      <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+</web-app>
