@@ -4,7 +4,7 @@
 
 不知从那天起，内存马悄悄成为了新的技术研究方向。一边习惯了技术的更迭而淡定自若，一边突然面对消失的技术而黯然伤神消沉。猛回头，发现突然消失的又何止是技术？本项目用来收集整理内存马相关的技术资料，包括内存马技术原理实现方法具体的项目等。内存马在Java领域独领风骚，因此我们将重点关注Java内存马。也用此项目致敬四大spy，致敬老兵，致敬消失的技术！作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2023年5月1日，最近的一次更新时间为2023年7月18日。
+本项目创建于2023年5月1日，最近的一次更新时间为2023年7月20日。
 
 - [01-内存马资源](https://github.com/Getshell/Mshell#01-%E5%86%85%E5%AD%98%E9%A9%AC%E8%B5%84%E6%BA%90)
 - [02-内存马原理](https://github.com/Getshell/Mshell#02-%E5%86%85%E5%AD%98%E9%A9%AC%E5%8E%9F%E7%90%86)
@@ -181,6 +181,7 @@
 - [ ] [Executor内存马的实现](https://mp.weixin.qq.com/s/uHxQf86zHJvg9frTbjdIdA)@深蓝
 - [ ] [第20篇：改造冰蝎客户端适配JNDIExploit的内存马](https://mp.weixin.qq.com/s/qE_AArdpAVL-EoBbILb_Jg)@abc123
 - [ ] [深入浅出内存马](https://xz.aliyun.com/t/12705)@小*见
+- [ ] [WebsocketAndTimer内存马的查杀分析和代码实现 ](https://www.freebuf.com/articles/web/372192.html)@RoboTerh
 
 二、开源项目
 - [x] https://github.com/topics/memshell
@@ -310,5 +311,6 @@
 - [ ] https://github.com/HackJava/HackJava
 - [ ] https://github.com/HackJava/JNDI
 - [ ] https://github.com/HackJava/jspshell
+- [ ] https://github.com/RoboTerh
 
 [![Stargazers over time](https://starchart.cc//Getshell/Mshell.svg)](https://starchart.cc/Getshell/Mshell)
