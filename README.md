@@ -221,6 +221,7 @@
 - [ ] https://github.com/veo/vagent
 - [ ] https://github.com/rzte/agentcrack
 - [ ] https://github.com/veo/ebpf_shell
+- [ ] https://github.com/veo/nginx_shell
 
 三、学术论文
 - [ ] [面向Java 的高对抗内存型Webshell 检测技术](http://jcs.iie.ac.cn/xxaqxb/ch/reader/create_pdf.aspx?file_no=20220604&year_id=2022&quarter_id=6&falg=1)@张金莉 陈星辰等
